@@ -1,0 +1,4 @@
+source;share/cplusplus_laser_map/local_setup.bash
+source;share/cplusplus_laser_map/local_setup.dsv
+source;share/cplusplus_laser_map/local_setup.sh
+source;share/cplusplus_laser_map/local_setup.zsh

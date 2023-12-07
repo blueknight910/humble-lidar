@@ -1,0 +1,938 @@
+[0.000000] (-) TimerEvent: {}
+[0.001653] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001791] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.099160] (-) TimerEvent: {}
+[0.200225] (-) TimerEvent: {}
+[0.302011] (-) TimerEvent: {}
+[0.402809] (-) TimerEvent: {}
+[0.478987] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.480292] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/prez/git/humble-lidar/src/rplidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/prez/git/humble-lidar/install/rplidar_ros'], 'cwd': '/home/prez/git/humble-lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-37732801-b358-4d92-bf6c-2c062b558a79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.503039] (-) TimerEvent: {}
+[0.603818] (-) TimerEvent: {}
+[0.704670] (-) TimerEvent: {}
+[0.805452] (-) TimerEvent: {}
+[0.906388] (-) TimerEvent: {}
+[1.007399] (-) TimerEvent: {}
+[1.108203] (-) TimerEvent: {}
+[1.198479] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.208372] (-) TimerEvent: {}
+[1.309284] (-) TimerEvent: {}
+[1.410553] (-) TimerEvent: {}
+[1.511433] (-) TimerEvent: {}
+[1.612555] (-) TimerEvent: {}
+[1.713327] (-) TimerEvent: {}
+[1.732621] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.813590] (-) TimerEvent: {}
+[1.914751] (-) TimerEvent: {}
+[2.016243] (-) TimerEvent: {}
+[2.020205] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.116508] (-) TimerEvent: {}
+[2.217423] (-) TimerEvent: {}
+[2.318236] (-) TimerEvent: {}
+[2.419152] (-) TimerEvent: {}
+[2.443298] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.473822] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.475602] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.478181] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.494041] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.519338] (-) TimerEvent: {}
+[2.620184] (-) TimerEvent: {}
+[2.721200] (-) TimerEvent: {}
+[2.822014] (-) TimerEvent: {}
+[2.922755] (-) TimerEvent: {}
+[2.929812] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.960354] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.961341] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.962955] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.022921] (-) TimerEvent: {}
+[3.025353] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[3.123122] (-) TimerEvent: {}
+[3.225266] (-) TimerEvent: {}
+[3.325943] (-) TimerEvent: {}
+[3.426581] (-) TimerEvent: {}
+[3.527337] (-) TimerEvent: {}
+[3.628087] (-) TimerEvent: {}
+[3.728752] (-) TimerEvent: {}
+[3.829401] (-) TimerEvent: {}
+[3.930183] (-) TimerEvent: {}
+[4.031034] (-) TimerEvent: {}
+[4.131723] (-) TimerEvent: {}
+[4.232418] (-) TimerEvent: {}
+[4.333112] (-) TimerEvent: {}
+[4.433814] (-) TimerEvent: {}
+[4.534476] (-) TimerEvent: {}
+[4.635309] (-) TimerEvent: {}
+[4.736366] (-) TimerEvent: {}
+[4.837111] (-) TimerEvent: {}
+[4.937773] (-) TimerEvent: {}
+[5.038494] (-) TimerEvent: {}
+[5.139160] (-) TimerEvent: {}
+[5.239943] (-) TimerEvent: {}
+[5.327633] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.340151] (-) TimerEvent: {}
+[5.440898] (-) TimerEvent: {}
+[5.541559] (-) TimerEvent: {}
+[5.642314] (-) TimerEvent: {}
+[5.708452] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.742511] (-) TimerEvent: {}
+[5.843198] (-) TimerEvent: {}
+[5.943930] (-) TimerEvent: {}
+[6.044633] (-) TimerEvent: {}
+[6.145332] (-) TimerEvent: {}
+[6.245993] (-) TimerEvent: {}
+[6.346751] (-) TimerEvent: {}
+[6.447430] (-) TimerEvent: {}
+[6.548138] (-) TimerEvent: {}
+[6.604834] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.648293] (-) TimerEvent: {}
+[6.749005] (-) TimerEvent: {}
+[6.849739] (-) TimerEvent: {}
+[6.950359] (-) TimerEvent: {}
+[7.051032] (-) TimerEvent: {}
+[7.151772] (-) TimerEvent: {}
+[7.252501] (-) TimerEvent: {}
+[7.353237] (-) TimerEvent: {}
+[7.454183] (-) TimerEvent: {}
+[7.555006] (-) TimerEvent: {}
+[7.655689] (-) TimerEvent: {}
+[7.756410] (-) TimerEvent: {}
+[7.857183] (-) TimerEvent: {}
+[7.957940] (-) TimerEvent: {}
+[8.058691] (-) TimerEvent: {}
+[8.092370] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.158865] (-) TimerEvent: {}
+[8.223521] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.259043] (-) TimerEvent: {}
+[8.359734] (-) TimerEvent: {}
+[8.377860] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.459914] (-) TimerEvent: {}
+[8.560620] (-) TimerEvent: {}
+[8.568757] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.660830] (-) TimerEvent: {}
+[8.761568] (-) TimerEvent: {}
+[8.831756] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.861720] (-) TimerEvent: {}
+[8.962400] (-) TimerEvent: {}
+[9.063092] (-) TimerEvent: {}
+[9.163777] (-) TimerEvent: {}
+[9.264501] (-) TimerEvent: {}
+[9.365182] (-) TimerEvent: {}
+[9.465896] (-) TimerEvent: {}
+[9.566652] (-) TimerEvent: {}
+[9.667330] (-) TimerEvent: {}
+[9.694130] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.765815] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.767454] (-) TimerEvent: {}
+[9.868112] (-) TimerEvent: {}
+[9.968793] (-) TimerEvent: {}
+[10.069460] (-) TimerEvent: {}
+[10.170199] (-) TimerEvent: {}
+[10.270929] (-) TimerEvent: {}
+[10.371598] (-) TimerEvent: {}
+[10.472325] (-) TimerEvent: {}
+[10.573014] (-) TimerEvent: {}
+[10.673797] (-) TimerEvent: {}
+[10.774567] (-) TimerEvent: {}
+[10.784325] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.874763] (-) TimerEvent: {}
+[10.975452] (-) TimerEvent: {}
+[11.076174] (-) TimerEvent: {}
+[11.098813] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.176327] (-) TimerEvent: {}
+[11.276998] (-) TimerEvent: {}
+[11.377660] (-) TimerEvent: {}
+[11.478318] (-) TimerEvent: {}
+[11.578987] (-) TimerEvent: {}
+[11.618315] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.679155] (-) TimerEvent: {}
+[11.779829] (-) TimerEvent: {}
+[11.825802] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.880156] (-) TimerEvent: {}
+[11.981861] (-) TimerEvent: {}
+[12.082650] (-) TimerEvent: {}
+[12.183495] (-) TimerEvent: {}
+[12.225323] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.227468] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.283709] (-) TimerEvent: {}
+[12.385685] (-) TimerEvent: {}
+[12.487121] (-) TimerEvent: {}
+[12.588101] (-) TimerEvent: {}
+[12.643924] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.649402] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.689056] (-) TimerEvent: {}
+[12.789896] (-) TimerEvent: {}
+[12.890740] (-) TimerEvent: {}
+[12.991625] (-) TimerEvent: {}
+[13.092560] (-) TimerEvent: {}
+[13.193351] (-) TimerEvent: {}
+[13.294288] (-) TimerEvent: {}
+[13.395083] (-) TimerEvent: {}
+[13.495921] (-) TimerEvent: {}
+[13.596753] (-) TimerEvent: {}
+[13.697558] (-) TimerEvent: {}
+[13.798314] (-) TimerEvent: {}
+[13.899145] (-) TimerEvent: {}
+[14.000052] (-) TimerEvent: {}
+[14.100864] (-) TimerEvent: {}
+[14.201752] (-) TimerEvent: {}
+[14.302509] (-) TimerEvent: {}
+[14.403436] (-) TimerEvent: {}
+[14.504226] (-) TimerEvent: {}
+[14.605006] (-) TimerEvent: {}
+[14.705783] (-) TimerEvent: {}
+[14.806544] (-) TimerEvent: {}
+[14.907365] (-) TimerEvent: {}
+[15.008164] (-) TimerEvent: {}
+[15.108850] (-) TimerEvent: {}
+[15.162495] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.209028] (-) TimerEvent: {}
+[15.260089] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[15.268040] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/prez/git/humble-lidar/build/rplidar_ros\n'}
+[15.309151] (-) TimerEvent: {}
+[15.310683] (rplidar_ros) CommandEnded: {'returncode': 0}
+[15.312599] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[15.315206] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prez/git/humble-lidar/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/prez/git/humble-lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-37732801-b358-4d92-bf6c-2c062b558a79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[15.409360] (-) TimerEvent: {}
+[15.510122] (-) TimerEvent: {}
+[15.606575] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[15.611455] (-) TimerEvent: {}
+[15.615222] (rplidar_ros) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[15.626333] (rplidar_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[15.649762] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[15.711682] (-) TimerEvent: {}
+[15.813335] (-) TimerEvent: {}
+[15.914814] (-) TimerEvent: {}
+[16.016561] (-) TimerEvent: {}
+[16.118530] (-) TimerEvent: {}
+[16.220105] (-) TimerEvent: {}
+[16.321606] (-) TimerEvent: {}
+[16.423734] (-) TimerEvent: {}
+[16.525686] (-) TimerEvent: {}
+[16.627125] (-) TimerEvent: {}
+[16.729089] (-) TimerEvent: {}
+[16.831002] (-) TimerEvent: {}
+[16.933326] (-) TimerEvent: {}
+[17.035256] (-) TimerEvent: {}
+[17.137486] (-) TimerEvent: {}
+[17.238461] (-) TimerEvent: {}
+[17.339530] (-) TimerEvent: {}
+[17.441163] (-) TimerEvent: {}
+[17.556202] (-) TimerEvent: {}
+[17.660184] (-) TimerEvent: {}
+[17.762805] (-) TimerEvent: {}
+[17.867649] (-) TimerEvent: {}
+[17.968692] (-) TimerEvent: {}
+[18.069774] (-) TimerEvent: {}
+[18.170989] (-) TimerEvent: {}
+[18.325380] (-) TimerEvent: {}
+[18.334300] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[18.336426] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[18.337811] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[18.339291] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[18.341240] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[18.342694] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[18.344007] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[18.345917] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[18.348096] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[18.351440] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[18.352404] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[18.353185] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[18.353902] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[18.354590] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[18.355329] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[18.356223] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[18.356912] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[18.357772] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[18.358718] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[18.359455] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[18.360459] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[18.366665] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[18.378622] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[18.379773] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[18.380971] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[18.381906] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.382616] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[18.383298] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.384040] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[18.384996] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[18.385908] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[18.386895] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.387732] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[18.388500] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.425725] (-) TimerEvent: {}
+[18.440498] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.441391] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.442168] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[18.442824] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.455517] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[18.456531] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[18.457314] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[18.458067] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.458919] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.459873] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[18.460662] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.525976] (-) TimerEvent: {}
+[18.627050] (-) TimerEvent: {}
+[18.706973] (rplidar_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[18.727304] (-) TimerEvent: {}
+[18.829317] (-) TimerEvent: {}
+[18.859049] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.859850] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.860763] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[18.861417] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[18.862720] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.863570] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.864281] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[18.864908] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[18.865472] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.866068] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.866954] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[18.868320] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[18.869303] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.872646] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.876242] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[18.878196] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[18.929673] (-) TimerEvent: {}
+[19.032879] (-) TimerEvent: {}
+[19.136175] (-) TimerEvent: {}
+[19.237322] (-) TimerEvent: {}
+[19.342936] (-) TimerEvent: {}
+[19.442919] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[19.443793] (-) TimerEvent: {}
+[19.550023] (-) TimerEvent: {}
+[19.653280] (-) TimerEvent: {}
+[19.755002] (-) TimerEvent: {}
+[19.857259] (-) TimerEvent: {}
+[19.960276] (-) TimerEvent: {}
+[20.061503] (-) TimerEvent: {}
+[20.162723] (-) TimerEvent: {}
+[20.263715] (-) TimerEvent: {}
+[20.364694] (-) TimerEvent: {}
+[20.466663] (-) TimerEvent: {}
+[20.567783] (-) TimerEvent: {}
+[20.669740] (-) TimerEvent: {}
+[20.771929] (-) TimerEvent: {}
+[20.874386] (-) TimerEvent: {}
+[20.976965] (-) TimerEvent: {}
+[21.079640] (-) TimerEvent: {}
+[21.169671] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[21.171006] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[21.177561] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[21.178779] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.179882] (-) TimerEvent: {}
+[21.182670] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.183622] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.184498] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[21.185702] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[21.193252] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[21.197296] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.198443] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.199314] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.200153] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[21.201076] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.210934] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.213848] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[21.214843] (rplidar_ros) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.215874] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.216823] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.217759] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[21.218508] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[21.280221] (-) TimerEvent: {}
+[21.382943] (-) TimerEvent: {}
+[21.485273] (-) TimerEvent: {}
+[21.586448] (-) TimerEvent: {}
+[21.688753] (-) TimerEvent: {}
+[21.790983] (-) TimerEvent: {}
+[21.893203] (-) TimerEvent: {}
+[21.923204] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[21.924071] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[21.924932] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[21.925983] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.926714] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.927461] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.928475] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[21.929302] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[21.929905] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[21.930606] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.931232] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.931755] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.993496] (-) TimerEvent: {}
+[22.095553] (-) TimerEvent: {}
+[22.196643] (-) TimerEvent: {}
+[22.297655] (-) TimerEvent: {}
+[22.398670] (-) TimerEvent: {}
+[22.499639] (-) TimerEvent: {}
+[22.531050] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.532117] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.533260] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[22.533889] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[22.537956] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.538676] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.539242] (rplidar_ros) StderrLine: {'line': b'  275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[22.539772] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[22.553159] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.554041] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Klast_angleInc_q16\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.554655] (rplidar_ros) StderrLine: {'line': b'  671 |     static int \x1b[01;35m\x1b[Klast_angleInc_q16\x1b[m\x1b[K = 0;\n'}
+[22.555184] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.555768] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.556393] (rplidar_ros) StderrLine: {'line': b'  673 |     int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree\n'}
+[22.556977] (rplidar_ros) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.559127] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.559784] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_scan_count\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.560570] (rplidar_ros) StderrLine: {'line': b'  771 |     size_t                                   \x1b[01;35m\x1b[Klast_scan_count\x1b[m\x1b[K = 0;\n'}
+[22.561108] (rplidar_ros) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.562704] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.563363] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.563917] (rplidar_ros) StderrLine: {'line': b'  850 |             int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree\n'}
+[22.564585] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.565636] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.566279] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.566983] (rplidar_ros) StderrLine: {'line': b'  903 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[22.567575] (rplidar_ros) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.570908] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.571628] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.572535] (rplidar_ros) StderrLine: {'line': b' 1027 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[22.573166] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[22.577993] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.578873] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.579422] (rplidar_ros) StderrLine: {'line': b' 1238 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[22.580167] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.580995] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.581599] (rplidar_ros) StderrLine: {'line': b' 1246 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[22.582163] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.582681] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.583223] (rplidar_ros) StderrLine: {'line': b' 1256 |                 int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree\n'}
+[22.583785] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.599869] (-) TimerEvent: {}
+[22.602435] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.603148] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.603732] (rplidar_ros) StderrLine: {'line': b' 1484 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[22.604497] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.607757] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.608759] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.609509] (rplidar_ros) StderrLine: {'line': b' 1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[22.610103] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[22.614722] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.615418] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.616115] (rplidar_ros) StderrLine: {'line': b' 1805 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[22.616701] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[22.629352] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.630046] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.630728] (rplidar_ros) StderrLine: {'line': b' 2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[22.631306] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[22.634236] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.634913] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.635503] (rplidar_ros) StderrLine: {'line': b' 2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[22.636135] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[22.637836] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.638459] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.639074] (rplidar_ros) StderrLine: {'line': b' 2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[22.639576] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[22.700133] (-) TimerEvent: {}
+[22.747280] (rplidar_ros) StderrLine: {'line': b'/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.748110] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:\x1b[m\x1b[K   required from here\n'}
+[22.748704] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.749296] (rplidar_ros) StderrLine: {'line': b' 1991 |     for (i = count - 1; \x1b[01;35m\x1b[Ki >= 0\x1b[m\x1b[K; i--) {\n'}
+[22.749882] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[22.750658] (rplidar_ros) StderrLine: {'line': b'/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.751247] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:\x1b[m\x1b[K   required from here\n'}
+[22.751732] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.800340] (-) TimerEvent: {}
+[22.901198] (-) TimerEvent: {}
+[23.002172] (-) TimerEvent: {}
+[23.050443] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.051285] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.051892] (rplidar_ros) StderrLine: {'line': b' 2225 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[23.052530] (rplidar_ros) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.102569] (-) TimerEvent: {}
+[23.204886] (-) TimerEvent: {}
+[23.305798] (-) TimerEvent: {}
+[23.406631] (-) TimerEvent: {}
+[23.507698] (-) TimerEvent: {}
+[23.608659] (-) TimerEvent: {}
+[23.709517] (-) TimerEvent: {}
+[23.810625] (-) TimerEvent: {}
+[23.911646] (-) TimerEvent: {}
+[24.012491] (-) TimerEvent: {}
+[24.113380] (-) TimerEvent: {}
+[24.214311] (-) TimerEvent: {}
+[24.315173] (-) TimerEvent: {}
+[24.416070] (-) TimerEvent: {}
+[24.516857] (-) TimerEvent: {}
+[24.617703] (-) TimerEvent: {}
+[24.718510] (-) TimerEvent: {}
+[24.819269] (-) TimerEvent: {}
+[24.920091] (-) TimerEvent: {}
+[25.020976] (-) TimerEvent: {}
+[25.121762] (-) TimerEvent: {}
+[25.222531] (-) TimerEvent: {}
+[25.323269] (-) TimerEvent: {}
+[25.424118] (-) TimerEvent: {}
+[25.524879] (-) TimerEvent: {}
+[25.625643] (-) TimerEvent: {}
+[25.726448] (-) TimerEvent: {}
+[25.827241] (-) TimerEvent: {}
+[25.928063] (-) TimerEvent: {}
+[26.028842] (-) TimerEvent: {}
+[26.129623] (-) TimerEvent: {}
+[26.230480] (-) TimerEvent: {}
+[26.331257] (-) TimerEvent: {}
+[26.432148] (-) TimerEvent: {}
+[26.532960] (-) TimerEvent: {}
+[26.633763] (-) TimerEvent: {}
+[26.734549] (-) TimerEvent: {}
+[26.835324] (-) TimerEvent: {}
+[26.936127] (-) TimerEvent: {}
+[27.036922] (-) TimerEvent: {}
+[27.137775] (-) TimerEvent: {}
+[27.238557] (-) TimerEvent: {}
+[27.339387] (-) TimerEvent: {}
+[27.440183] (-) TimerEvent: {}
+[27.540980] (-) TimerEvent: {}
+[27.641794] (-) TimerEvent: {}
+[27.742586] (-) TimerEvent: {}
+[27.843386] (-) TimerEvent: {}
+[27.944264] (-) TimerEvent: {}
+[28.045019] (-) TimerEvent: {}
+[28.145807] (-) TimerEvent: {}
+[28.194632] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[28.195233] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[28.195630] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[28.196368] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.196869] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[28.197227] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.197597] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[28.197910] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[28.198218] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[28.198521] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.198857] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[28.199160] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.246092] (-) TimerEvent: {}
+[28.346980] (-) TimerEvent: {}
+[28.447740] (-) TimerEvent: {}
+[28.456408] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.457343] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:248:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.457956] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[28.458353] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.458711] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:248:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.459539] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[28.460017] (rplidar_ros) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.460423] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.460774] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:259:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.461186] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[28.461540] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.461907] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:259:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.462244] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[28.462566] (rplidar_ros) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.481920] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.482490] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:362:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.482877] (rplidar_ros) StderrLine: {'line': b'  362 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[28.483207] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.484037] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:383:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.484564] (rplidar_ros) StderrLine: {'line': b'  383 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[28.485182] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.485525] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:390:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.485875] (rplidar_ros) StderrLine: {'line': b'  390 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[28.486206] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[28.486495] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:391:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.486935] (rplidar_ros) StderrLine: {'line': b'  391 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[28.487430] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[28.548004] (-) TimerEvent: {}
+[28.648752] (-) TimerEvent: {}
+[28.749507] (-) TimerEvent: {}
+[28.850290] (-) TimerEvent: {}
+[28.951126] (-) TimerEvent: {}
+[29.052006] (-) TimerEvent: {}
+[29.152770] (-) TimerEvent: {}
+[29.253527] (-) TimerEvent: {}
+[29.354354] (-) TimerEvent: {}
+[29.455169] (-) TimerEvent: {}
+[29.556040] (-) TimerEvent: {}
+[29.656809] (-) TimerEvent: {}
+[29.757677] (-) TimerEvent: {}
+[29.858483] (-) TimerEvent: {}
+[29.959480] (-) TimerEvent: {}
+[30.060638] (-) TimerEvent: {}
+[30.161385] (-) TimerEvent: {}
+[30.262160] (-) TimerEvent: {}
+[30.362987] (-) TimerEvent: {}
+[30.519767] (-) TimerEvent: {}
+[30.620580] (-) TimerEvent: {}
+[30.721357] (-) TimerEvent: {}
+[30.822275] (-) TimerEvent: {}
+[30.923069] (-) TimerEvent: {}
+[31.024012] (-) TimerEvent: {}
+[31.124767] (-) TimerEvent: {}
+[31.225544] (-) TimerEvent: {}
+[31.326311] (-) TimerEvent: {}
+[31.427138] (-) TimerEvent: {}
+[31.527905] (-) TimerEvent: {}
+[31.628697] (-) TimerEvent: {}
+[31.729478] (-) TimerEvent: {}
+[31.830295] (-) TimerEvent: {}
+[31.931114] (-) TimerEvent: {}
+[32.031900] (-) TimerEvent: {}
+[32.132785] (-) TimerEvent: {}
+[32.233890] (-) TimerEvent: {}
+[32.334678] (-) TimerEvent: {}
+[32.435532] (-) TimerEvent: {}
+[32.536383] (-) TimerEvent: {}
+[32.637230] (-) TimerEvent: {}
+[32.738400] (-) TimerEvent: {}
+[32.839895] (-) TimerEvent: {}
+[32.940842] (-) TimerEvent: {}
+[33.041627] (-) TimerEvent: {}
+[33.142506] (-) TimerEvent: {}
+[33.243566] (-) TimerEvent: {}
+[33.344370] (-) TimerEvent: {}
+[33.445182] (-) TimerEvent: {}
+[33.546014] (-) TimerEvent: {}
+[33.646798] (-) TimerEvent: {}
+[33.747605] (-) TimerEvent: {}
+[33.848530] (-) TimerEvent: {}
+[33.949372] (-) TimerEvent: {}
+[34.050206] (-) TimerEvent: {}
+[34.151047] (-) TimerEvent: {}
+[34.251800] (-) TimerEvent: {}
+[34.352604] (-) TimerEvent: {}
+[34.453414] (-) TimerEvent: {}
+[34.554177] (-) TimerEvent: {}
+[34.654925] (-) TimerEvent: {}
+[34.755687] (-) TimerEvent: {}
+[34.856507] (-) TimerEvent: {}
+[34.957276] (-) TimerEvent: {}
+[35.058031] (-) TimerEvent: {}
+[35.158814] (-) TimerEvent: {}
+[35.259576] (-) TimerEvent: {}
+[35.360358] (-) TimerEvent: {}
+[35.461149] (-) TimerEvent: {}
+[35.562020] (-) TimerEvent: {}
+[35.662803] (-) TimerEvent: {}
+[35.763646] (-) TimerEvent: {}
+[35.864429] (-) TimerEvent: {}
+[35.965195] (-) TimerEvent: {}
+[36.065992] (-) TimerEvent: {}
+[36.166918] (-) TimerEvent: {}
+[36.267699] (-) TimerEvent: {}
+[36.368552] (-) TimerEvent: {}
+[36.469366] (-) TimerEvent: {}
+[36.570124] (-) TimerEvent: {}
+[36.670953] (-) TimerEvent: {}
+[36.771801] (-) TimerEvent: {}
+[36.872611] (-) TimerEvent: {}
+[36.973496] (-) TimerEvent: {}
+[37.074311] (-) TimerEvent: {}
+[37.175046] (-) TimerEvent: {}
+[37.275732] (-) TimerEvent: {}
+[37.376517] (-) TimerEvent: {}
+[37.477261] (-) TimerEvent: {}
+[37.578057] (-) TimerEvent: {}
+[37.678795] (-) TimerEvent: {}
+[37.779526] (-) TimerEvent: {}
+[37.880498] (-) TimerEvent: {}
+[37.981423] (-) TimerEvent: {}
+[38.082181] (-) TimerEvent: {}
+[38.182888] (-) TimerEvent: {}
+[38.283664] (-) TimerEvent: {}
+[38.384583] (-) TimerEvent: {}
+[38.485336] (-) TimerEvent: {}
+[38.586092] (-) TimerEvent: {}
+[38.686898] (-) TimerEvent: {}
+[38.787668] (-) TimerEvent: {}
+[38.888471] (-) TimerEvent: {}
+[38.989222] (-) TimerEvent: {}
+[39.089990] (-) TimerEvent: {}
+[39.190738] (-) TimerEvent: {}
+[39.291477] (-) TimerEvent: {}
+[39.392281] (-) TimerEvent: {}
+[39.493047] (-) TimerEvent: {}
+[39.593900] (-) TimerEvent: {}
+[39.694891] (-) TimerEvent: {}
+[39.795708] (-) TimerEvent: {}
+[39.896735] (-) TimerEvent: {}
+[39.997863] (-) TimerEvent: {}
+[40.098733] (-) TimerEvent: {}
+[40.199945] (-) TimerEvent: {}
+[40.300824] (-) TimerEvent: {}
+[40.402202] (-) TimerEvent: {}
+[40.503859] (-) TimerEvent: {}
+[40.605321] (-) TimerEvent: {}
+[40.706397] (-) TimerEvent: {}
+[40.807763] (-) TimerEvent: {}
+[40.909153] (-) TimerEvent: {}
+[41.010402] (-) TimerEvent: {}
+[41.111163] (-) TimerEvent: {}
+[41.211883] (-) TimerEvent: {}
+[41.312672] (-) TimerEvent: {}
+[41.413409] (-) TimerEvent: {}
+[41.514411] (-) TimerEvent: {}
+[41.615165] (-) TimerEvent: {}
+[41.716000] (-) TimerEvent: {}
+[41.816756] (-) TimerEvent: {}
+[41.917845] (-) TimerEvent: {}
+[42.019139] (-) TimerEvent: {}
+[42.120216] (-) TimerEvent: {}
+[42.221253] (-) TimerEvent: {}
+[42.312574] (rplidar_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[42.321436] (-) TimerEvent: {}
+[42.422246] (-) TimerEvent: {}
+[42.523302] (-) TimerEvent: {}
+[42.624493] (-) TimerEvent: {}
+[42.725539] (-) TimerEvent: {}
+[42.826900] (-) TimerEvent: {}
+[42.927821] (-) TimerEvent: {}
+[43.029044] (-) TimerEvent: {}
+[43.129805] (-) TimerEvent: {}
+[43.230968] (-) TimerEvent: {}
+[43.331988] (-) TimerEvent: {}
+[43.432917] (-) TimerEvent: {}
+[43.533770] (-) TimerEvent: {}
+[43.634739] (-) TimerEvent: {}
+[43.735651] (-) TimerEvent: {}
+[43.836910] (-) TimerEvent: {}
+[43.937722] (-) TimerEvent: {}
+[43.949602] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[44.037938] (-) TimerEvent: {}
+[44.058672] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[44.138106] (-) TimerEvent: {}
+[44.238770] (-) TimerEvent: {}
+[44.339444] (-) TimerEvent: {}
+[44.440110] (-) TimerEvent: {}
+[44.540864] (-) TimerEvent: {}
+[44.641750] (-) TimerEvent: {}
+[44.742433] (-) TimerEvent: {}
+[44.843107] (-) TimerEvent: {}
+[44.943779] (-) TimerEvent: {}
+[45.044550] (-) TimerEvent: {}
+[45.145285] (-) TimerEvent: {}
+[45.246000] (-) TimerEvent: {}
+[45.346699] (-) TimerEvent: {}
+[45.447506] (-) TimerEvent: {}
+[45.548241] (-) TimerEvent: {}
+[45.648918] (-) TimerEvent: {}
+[45.749670] (-) TimerEvent: {}
+[45.750606] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[45.751576] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[45.752015] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[45.752399] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[45.752723] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[45.753032] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[45.753409] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[45.753726] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[45.754037] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[45.754402] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[45.754720] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[45.755032] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[45.755530] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[45.756154] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[45.756909] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[45.757605] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[45.758131] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[45.758707] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[45.759589] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[45.760320] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[45.760924] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[45.761443] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[45.849869] (-) TimerEvent: {}
+[45.950642] (-) TimerEvent: {}
+[46.051438] (-) TimerEvent: {}
+[46.152226] (-) TimerEvent: {}
+[46.252983] (-) TimerEvent: {}
+[46.353885] (-) TimerEvent: {}
+[46.454675] (-) TimerEvent: {}
+[46.555490] (-) TimerEvent: {}
+[46.656271] (-) TimerEvent: {}
+[46.756989] (-) TimerEvent: {}
+[46.857791] (-) TimerEvent: {}
+[46.958594] (-) TimerEvent: {}
+[47.059421] (-) TimerEvent: {}
+[47.160169] (-) TimerEvent: {}
+[47.260919] (-) TimerEvent: {}
+[47.361673] (-) TimerEvent: {}
+[47.462444] (-) TimerEvent: {}
+[47.563184] (-) TimerEvent: {}
+[47.664070] (-) TimerEvent: {}
+[47.764823] (-) TimerEvent: {}
+[47.865734] (-) TimerEvent: {}
+[47.966606] (-) TimerEvent: {}
+[48.067381] (-) TimerEvent: {}
+[48.168162] (-) TimerEvent: {}
+[48.268950] (-) TimerEvent: {}
+[48.369861] (-) TimerEvent: {}
+[48.470614] (-) TimerEvent: {}
+[48.571349] (-) TimerEvent: {}
+[48.672144] (-) TimerEvent: {}
+[48.773043] (-) TimerEvent: {}
+[48.873889] (-) TimerEvent: {}
+[48.974668] (-) TimerEvent: {}
+[49.075469] (-) TimerEvent: {}
+[49.176242] (-) TimerEvent: {}
+[49.276997] (-) TimerEvent: {}
+[49.377803] (-) TimerEvent: {}
+[49.478596] (-) TimerEvent: {}
+[49.579362] (-) TimerEvent: {}
+[49.680136] (-) TimerEvent: {}
+[49.781003] (-) TimerEvent: {}
+[49.881893] (-) TimerEvent: {}
+[49.982699] (-) TimerEvent: {}
+[50.083488] (-) TimerEvent: {}
+[50.184278] (-) TimerEvent: {}
+[50.285062] (-) TimerEvent: {}
+[50.385971] (-) TimerEvent: {}
+[50.486745] (-) TimerEvent: {}
+[50.587582] (-) TimerEvent: {}
+[50.688410] (-) TimerEvent: {}
+[50.789408] (-) TimerEvent: {}
+[50.890253] (-) TimerEvent: {}
+[50.991030] (-) TimerEvent: {}
+[51.091789] (-) TimerEvent: {}
+[51.192645] (-) TimerEvent: {}
+[51.293404] (-) TimerEvent: {}
+[51.394240] (-) TimerEvent: {}
+[51.495025] (-) TimerEvent: {}
+[51.595827] (-) TimerEvent: {}
+[51.696671] (-) TimerEvent: {}
+[51.797444] (-) TimerEvent: {}
+[51.898248] (-) TimerEvent: {}
+[51.999047] (-) TimerEvent: {}
+[52.099819] (-) TimerEvent: {}
+[52.200624] (-) TimerEvent: {}
+[52.301404] (-) TimerEvent: {}
+[52.402292] (-) TimerEvent: {}
+[52.503054] (-) TimerEvent: {}
+[52.603873] (-) TimerEvent: {}
+[52.704711] (-) TimerEvent: {}
+[52.805434] (-) TimerEvent: {}
+[52.906294] (-) TimerEvent: {}
+[53.007151] (-) TimerEvent: {}
+[53.107927] (-) TimerEvent: {}
+[53.208868] (-) TimerEvent: {}
+[53.309712] (-) TimerEvent: {}
+[53.410558] (-) TimerEvent: {}
+[53.511335] (-) TimerEvent: {}
+[53.612163] (-) TimerEvent: {}
+[53.712936] (-) TimerEvent: {}
+[53.813859] (-) TimerEvent: {}
+[53.914708] (-) TimerEvent: {}
+[54.015557] (-) TimerEvent: {}
+[54.116435] (-) TimerEvent: {}
+[54.173967] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[54.174552] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[54.174939] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[54.175543] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[54.176008] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[54.176422] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[54.176753] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[54.177071] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[54.177369] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[54.177754] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[54.178290] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[54.178798] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[54.216633] (-) TimerEvent: {}
+[54.317397] (-) TimerEvent: {}
+[54.418221] (-) TimerEvent: {}
+[54.518984] (-) TimerEvent: {}
+[54.619741] (-) TimerEvent: {}
+[54.720526] (-) TimerEvent: {}
+[54.821265] (-) TimerEvent: {}
+[54.922047] (-) TimerEvent: {}
+[55.022813] (-) TimerEvent: {}
+[55.123606] (-) TimerEvent: {}
+[55.224410] (-) TimerEvent: {}
+[55.325179] (-) TimerEvent: {}
+[55.425978] (-) TimerEvent: {}
+[55.526803] (-) TimerEvent: {}
+[55.627588] (-) TimerEvent: {}
+[55.728474] (-) TimerEvent: {}
+[55.807856] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[55.808727] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.809587] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t & node)\n'}
+[55.810630] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[55.828659] (-) TimerEvent: {}
+[55.929444] (-) TimerEvent: {}
+[56.030253] (-) TimerEvent: {}
+[56.131080] (-) TimerEvent: {}
+[56.231915] (-) TimerEvent: {}
+[56.302597] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[56.332131] (-) TimerEvent: {}
+[56.432936] (-) TimerEvent: {}
+[56.533840] (-) TimerEvent: {}
+[56.634961] (-) TimerEvent: {}
+[56.736245] (-) TimerEvent: {}
+[56.837451] (-) TimerEvent: {}
+[56.938609] (-) TimerEvent: {}
+[57.039439] (-) TimerEvent: {}
+[57.140404] (-) TimerEvent: {}
+[57.241494] (-) TimerEvent: {}
+[57.292144] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[57.341460] (rplidar_ros) CommandEnded: {'returncode': 0}
+[57.343620] (-) TimerEvent: {}
+[57.444322] (-) TimerEvent: {}
+[57.544980] (-) TimerEvent: {}
+[57.623277] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[57.645208] (-) TimerEvent: {}
+[57.664405] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prez/git/humble-lidar/build/rplidar_ros'], 'cwd': '/home/prez/git/humble-lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-37732801-b358-4d92-bf6c-2c062b558a79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[57.704259] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[57.706010] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[57.707747] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[57.745380] (-) TimerEvent: {}
+[57.748479] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[57.793673] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[57.831058] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[57.845649] (-) TimerEvent: {}
+[57.872349] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[57.911048] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[57.945817] (-) TimerEvent: {}
+[57.949063] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[57.987139] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[58.026153] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[58.046016] (-) TimerEvent: {}
+[58.063902] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[58.102426] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[58.141480] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[58.146179] (-) TimerEvent: {}
+[58.180711] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[58.218986] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/include/visibility.h\n'}
+[58.246418] (-) TimerEvent: {}
+[58.258688] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[58.260096] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[58.299926] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[58.338429] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[58.346605] (-) TimerEvent: {}
+[58.378428] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[58.416190] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[58.446856] (-) TimerEvent: {}
+[58.457825] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[58.498019] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[58.541361] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[58.547034] (-) TimerEvent: {}
+[58.586380] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[58.630548] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[58.647313] (-) TimerEvent: {}
+[58.677032] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[58.735249] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[58.747524] (-) TimerEvent: {}
+[58.776575] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[58.818405] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[58.847780] (-) TimerEvent: {}
+[58.858866] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[58.900522] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[58.942352] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[58.948002] (-) TimerEvent: {}
+[58.983217] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[59.027758] (rplidar_ros) CommandEnded: {'returncode': 0}
+[59.048445] (-) TimerEvent: {}
+[59.150247] (-) TimerEvent: {}
+[59.252431] (-) TimerEvent: {}
+[59.353268] (-) TimerEvent: {}
+[59.454717] (-) TimerEvent: {}
+[59.557040] (-) TimerEvent: {}
+[59.657814] (-) TimerEvent: {}
+[59.758583] (-) TimerEvent: {}
+[59.859623] (-) TimerEvent: {}
+[59.960405] (-) TimerEvent: {}
+[60.061247] (-) TimerEvent: {}
+[60.163551] (-) TimerEvent: {}
+[60.264959] (-) TimerEvent: {}
+[60.286462] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[60.291713] (-) EventReactorShutdown: {}

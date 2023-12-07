@@ -1,0 +1,37 @@
+[1.826s] Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[2.006s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.312s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.552s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.601s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.164s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.166s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.538s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.124s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[7.139s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.895s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.898s] -- Configured cppcheck include dirs: /home/prez/git/humble-lidar/src/cplusplus_laser_map/include
+[7.899s] -- Configured cppcheck exclude dirs and/or files: 
+[7.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.958s] -- Configured cpplint exclude dirs and/or files: 
+[7.989s] -- Added test 'lint_cmake' to check CMake code style
+[8.061s] -- Added test 'uncrustify' to check C / C++ code style
+[8.062s] -- Configured uncrustify additional arguments: 
+[8.071s] -- Added test 'xmllint' to check XML markup files
+[8.080s] -- Configuring done
+[8.157s] -- Generating done
+[8.166s] -- Build files have been written to: /home/prez/git/humble-lidar/build/cplusplus_laser_map
+[8.313s] [35m[1mConsolidate compiler generated dependencies of target reading_laser[0m
+[8.424s] [ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o[0m
+[9.072s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmatplotlibcpp.h: No such file or directory
+[9.073s]     5 | #include [01;31m[K"matplotlibcpp.h"[m[K
+[9.073s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.074s] compilation terminated.
+[9.084s] gmake[2]: *** [CMakeFiles/reading_laser.dir/build.make:76: CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o] Error 1
+[9.087s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reading_laser.dir/all] Error 2
+[9.087s] gmake: *** [Makefile:146: all] Error 2
+[9.100s] Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4

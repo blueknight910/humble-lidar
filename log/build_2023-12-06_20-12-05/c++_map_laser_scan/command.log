@@ -1,0 +1,2 @@
+Invoking command in '/home/prez/git/humble-lidar/build/c++_map_laser_scan': /usr/bin/cmake /home/prez/git/humble-lidar/src/c++_map_laser_scan -DCMAKE_INSTALL_PREFIX=/home/prez/git/humble-lidar/install/c++_map_laser_scan
+Invoked command in '/home/prez/git/humble-lidar/build/c++_map_laser_scan' returned '1': /usr/bin/cmake /home/prez/git/humble-lidar/src/c++_map_laser_scan -DCMAKE_INSTALL_PREFIX=/home/prez/git/humble-lidar/install/c++_map_laser_scan

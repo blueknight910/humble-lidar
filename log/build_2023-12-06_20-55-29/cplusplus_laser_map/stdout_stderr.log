@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o[0m
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Subscription[m[K’ without an argument list
+   22 |   [01;31m[Krclcpp[m[K::Subscription::SharedPtr subscription_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |   rclcpp::Subscription::[01;31m[KSharedPtr[m[K subscription_;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[K;[m[K
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   22 |   rclcpp::Subscription::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                   [32m[Krmw_subscription_t[m[K
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:[m[K In constructor ‘[01m[KReadingLaser::ReadingLaser()[m[K’:
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   13 |       [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/reading_laser.dir/build.make:76: CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reading_laser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

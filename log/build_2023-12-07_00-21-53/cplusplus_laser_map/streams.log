@@ -1,0 +1,50 @@
+[1.180s] Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[1.419s] [35m[1mConsolidate compiler generated dependencies of target reading_laser[0m
+[1.543s] [ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o[0m
+[12.990s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.996s]                  from [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:6[m[K:
+[12.997s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:[m[K In member function ‘[01m[Kvoid ReadingLaser::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.997s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:33:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.998s]    33 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received scan data: Angle %d°, Distance %f meters"[m[K, [32m[Krange_index_[m[K, _msg->ranges[range_index_]);
+[12.998s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~[m[K
+[12.999s]       |                                                                                              [32m[K|[m[K
+[12.999s]       |                                                                                              [32m[Ksize_t {aka long unsigned int}[m[K
+[13.000s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:33:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[13.000s]    33 | INFO(this->get_logger(), "Received scan data: Angle [01;36m[K%d[m[K°, Distance %f meters", range_index_, _msg->ranges[range_index_]);
+[13.001s]       |                                                     [01;36m[K~^[m[K
+[13.001s]       |                                                      [01;36m[K|[m[K
+[13.002s]       |                                                      [01;36m[Kint[m[K
+[13.002s]       |                                                     [32m[K%ld[m[K
+[36.524s] [100%] [32m[1mLinking CXX executable reading_laser[0m
+[38.571s] [100%] Built target reading_laser
+[38.620s] Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[38.806s] Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/cplusplus_laser_map
+[38.839s] -- Install configuration: ""
+[38.840s] -- Installing: /home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/cplusplus_laser_map/reading_laser
+[38.870s] -- Set runtime path of "/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/cplusplus_laser_map/reading_laser" to ""
+[38.871s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/package_run_dependencies/cplusplus_laser_map
+[38.871s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/parent_prefix_path/cplusplus_laser_map
+[38.872s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/ament_prefix_path.sh
+[38.872s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/ament_prefix_path.dsv
+[38.873s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/path.sh
+[38.873s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/path.dsv
+[38.873s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.bash
+[38.874s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.sh
+[38.874s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.zsh
+[38.875s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.dsv
+[38.875s] -- Installing: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.dsv
+[38.876s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/packages/cplusplus_laser_map
+[38.876s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/cmake/cplusplus_laser_mapConfig.cmake
+[38.877s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/cmake/cplusplus_laser_mapConfig-version.cmake
+[38.877s] -- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.xml
+[38.883s] Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/cplusplus_laser_map

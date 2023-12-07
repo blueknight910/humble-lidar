@@ -1,0 +1,334 @@
+[0.482s] Invoking command in '/home/prez/git/humble-lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/prez/git/humble-lidar/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prez/git/humble-lidar/install/rplidar_ros
+[1.197s] -- The C compiler identification is GNU 11.4.0
+[1.731s] -- The CXX compiler identification is GNU 11.4.0
+[2.019s] -- Detecting C compiler ABI info
+[2.442s] -- Detecting C compiler ABI info - done
+[2.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.474s] -- Detecting C compile features
+[2.476s] -- Detecting C compile features - done
+[2.492s] -- Detecting CXX compiler ABI info
+[2.928s] -- Detecting CXX compiler ABI info - done
+[2.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.959s] -- Detecting CXX compile features
+[2.961s] -- Detecting CXX compile features - done
+[3.024s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[5.326s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.603s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.091s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.376s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.692s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.764s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.782s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.097s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.824s] -- Looking for pthread.h
+[12.224s] -- Looking for pthread.h - found
+[12.226s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.648s] -- Found Threads: TRUE  
+[15.161s] -- Configuring done
+[15.258s] -- Generating done
+[15.266s] -- Build files have been written to: /home/prez/git/humble-lidar/build/rplidar_ros
+[15.309s] Invoked command in '/home/prez/git/humble-lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/prez/git/humble-lidar/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prez/git/humble-lidar/install/rplidar_ros
+[15.320s] Invoking command in '/home/prez/git/humble-lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/rplidar_ros -- -j4 -l4
+[15.605s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[15.614s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[15.625s] [ 33%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[15.648s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[18.333s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[18.335s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[18.336s]    50 | #define M_PI 3.1415926535897932384626433832795
+[18.338s]       | 
+[18.340s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[18.341s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[18.343s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[18.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[18.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[18.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[18.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.356s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[18.357s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[18.358s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[18.359s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[18.370s]       | 
+[18.377s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[18.378s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[18.379s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[18.380s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.381s]    59 |     _u8 data[[01;35m[K0[m[K];
+[18.382s]       |              [01;35m[K^[m[K
+[18.382s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[18.383s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[18.384s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[18.385s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.386s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[18.387s]       |                  [01;35m[K^[m[K
+[18.439s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[18.440s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[18.440s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[18.441s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[18.454s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[18.455s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[18.456s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[18.456s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[18.457s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[18.458s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[18.459s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[18.706s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o[0m
+[18.857s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[18.858s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.859s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[18.860s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[18.861s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[18.862s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.862s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[18.863s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[18.864s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[18.864s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.866s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.867s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[18.870s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[18.872s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.876s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.876s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[19.441s] [ 66%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[21.168s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[21.175s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[21.176s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[21.177s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.181s]    59 |     _u8 data[[01;35m[K0[m[K];
+[21.182s]       |              [01;35m[K^[m[K
+[21.183s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[21.191s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[21.192s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[21.196s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.197s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[21.198s]       |                  [01;35m[K^[m[K
+[21.199s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[21.200s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[21.209s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[21.212s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[21.213s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.214s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[21.215s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.216s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[21.217s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[21.921s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[21.922s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[21.923s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[21.924s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.925s]    59 |     _u8 data[[01;35m[K0[m[K];
+[21.926s]       |              [01;35m[K^[m[K
+[21.927s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[21.927s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[21.928s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[21.929s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.929s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[21.930s]       |                  [01;35m[K^[m[K
+[22.530s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[22.531s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.531s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[22.532s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[22.536s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[22.537s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.537s]   275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[22.538s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[22.552s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)[m[K’:
+[22.552s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_angleInc_q16[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[22.553s]   671 |     static int [01;35m[Klast_angleInc_q16[m[K = 0;
+[22.553s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[22.554s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.555s]   673 |     int [01;35m[KsyncBit_check_threshold[m[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree
+[22.555s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.557s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()[m[K’:
+[22.558s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_scan_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.559s]   771 |     size_t                                   [01;35m[Klast_scan_count[m[K = 0;
+[22.559s]       |                                              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[22.561s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[22.562s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.562s]   850 |             int [01;35m[KsyncBit_check_threshold[m[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree
+[22.563s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.564s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[22.565s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[22.565s]   903 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[22.566s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.569s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[22.570s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[22.571s]  1027 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[22.571s]       |                     [01;35m[K~~^~~~~[m[K
+[22.576s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[22.577s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.578s]  1238 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[22.579s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[22.579s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.580s]  1246 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[22.580s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[22.581s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.581s]  1256 |                 int [01;35m[KsyncBit_check_threshold[m[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree
+[22.582s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.601s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[22.601s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.602s]  1484 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[22.603s]       |                                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[22.606s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[22.607s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.608s]  1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[22.608s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[22.613s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[22.614s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.614s]  1805 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[22.615s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[22.628s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[22.628s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.629s]  2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[22.629s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[22.632s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[22.633s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.634s]  2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[22.634s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[22.636s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[22.637s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.637s]  2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[22.638s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[22.746s] /home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[22.746s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:[m[K   required from here
+[22.747s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[22.747s]  1991 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[22.748s]       |                         [01;35m[K~~^~~~[m[K
+[22.749s] /home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[22.749s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:[m[K   required from here
+[22.750s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[23.049s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()[m[K’:
+[23.049s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[23.050s]  2225 | [01;35m[K}[m[K
+[23.051s]       | [01;35m[K^[m[K
+[28.193s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[28.193s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[28.194s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[28.194s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.195s]    59 |     _u8 data[[01;35m[K0[m[K];
+[28.195s]       |              [01;35m[K^[m[K
+[28.196s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[28.196s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[28.196s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[28.197s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.197s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[28.197s]       |                  [01;35m[K^[m[K
+[28.455s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[28.456s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:248:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.456s]   248 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[28.456s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[28.457s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:248:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.458s]   248 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[28.458s]       |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[28.458s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[28.459s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:259:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.459s]   259 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[28.460s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[28.460s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:259:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.460s]   259 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[28.461s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[28.480s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[28.481s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:362:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[28.481s]   362 |           for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[28.481s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.482s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:383:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[28.483s]   383 |       for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[28.483s]       |                                          [01;35m[K~~^~~~~~~~~~[m[K
+[28.484s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:390:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[28.484s]   390 |     float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[28.484s]       |           [01;35m[K^~~~~~~~~[m[K
+[28.485s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/rplidar_node.cpp:391:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[28.485s]   391 |     float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[28.486s]       |           [01;35m[K^~~~~~~~~[m[K
+[42.311s] [ 77%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[43.948s] [ 77%] Built target rplidar_composition_node
+[44.057s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[45.749s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[45.750s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[45.750s]    50 | #define M_PI 3.1415926535897932384626433832795
+[45.750s]       | 
+[45.751s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[45.751s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[45.751s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[45.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[45.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[45.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[45.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[45.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[45.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[45.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[45.755s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[45.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[45.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.757s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[45.758s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[45.759s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[45.759s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[45.760s]       | 
+[54.172s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[54.173s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[54.173s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[54.174s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.174s]    59 |     _u8 data[[01;35m[K0[m[K];
+[54.174s]       |              [01;35m[K^[m[K
+[54.175s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[54.175s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[54.175s]                  from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[54.176s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.176s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[54.177s]       |                  [01;35m[K^[m[K
+[55.806s] In file included from [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[55.807s] [01m[K/home/prez/git/humble-lidar/src/rplidar_ros2/include/rplidar_node.hpp:76:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[55.808s]    76 | static float [01;35m[KgetAngle[m[K(const rplidar_response_measurement_node_hq_t & node)
+[55.809s]       |              [01;35m[K^~~~~~~~[m[K
+[56.301s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[57.290s] [100%] Built target rplidar_composition
+[57.340s] Invoked command in '/home/prez/git/humble-lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/rplidar_ros -- -j4 -l4
+[57.669s] Invoking command in '/home/prez/git/humble-lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/rplidar_ros
+[57.702s] -- Install configuration: ""
+[57.704s] -- Execute custom install script
+[57.706s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[57.747s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[57.792s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[57.829s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[57.871s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[57.909s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[57.947s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[57.985s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[58.024s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[58.062s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[58.101s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[58.140s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/lib/librplidar_composition_node.so
+[58.179s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/include/rplidar_node.hpp
+[58.217s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/include/visibility.h
+[58.257s] -- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[58.258s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[58.298s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[58.337s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[58.377s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[58.414s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[58.456s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[58.496s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[58.540s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[58.585s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[58.629s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[58.675s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.dsv
+[58.734s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[58.775s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[58.817s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.857s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.899s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[58.941s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[58.981s] -- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.xml
+[59.027s] Invoked command in '/home/prez/git/humble-lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/rplidar_ros

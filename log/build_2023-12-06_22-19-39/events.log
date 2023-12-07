@@ -1,0 +1,724 @@
+[0.000000] (-) TimerEvent: {}
+[0.004124] (cplusplus_laser_map) JobQueued: {'identifier': 'cplusplus_laser_map', 'dependencies': OrderedDict()}
+[0.004953] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.006318] (cplusplus_laser_map) JobStarted: {'identifier': 'cplusplus_laser_map'}
+[0.094116] (-) TimerEvent: {}
+[0.196180] (-) TimerEvent: {}
+[0.310157] (-) TimerEvent: {}
+[0.412738] (-) TimerEvent: {}
+[0.515998] (-) TimerEvent: {}
+[0.620704] (-) TimerEvent: {}
+[0.727215] (-) TimerEvent: {}
+[0.832957] (-) TimerEvent: {}
+[0.938484] (-) TimerEvent: {}
+[1.040302] (-) TimerEvent: {}
+[1.146435] (-) TimerEvent: {}
+[1.248695] (-) TimerEvent: {}
+[1.351946] (-) TimerEvent: {}
+[1.454338] (-) TimerEvent: {}
+[1.557376] (-) TimerEvent: {}
+[1.659864] (-) TimerEvent: {}
+[1.763286] (-) TimerEvent: {}
+[1.866723] (-) TimerEvent: {}
+[1.971287] (-) TimerEvent: {}
+[2.010173] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[2.084794] (-) TimerEvent: {}
+[2.188822] (-) TimerEvent: {}
+[2.292172] (-) TimerEvent: {}
+[2.395344] (-) TimerEvent: {}
+[2.497492] (-) TimerEvent: {}
+[2.600690] (-) TimerEvent: {}
+[2.702683] (-) TimerEvent: {}
+[2.807893] (-) TimerEvent: {}
+[2.909921] (-) TimerEvent: {}
+[3.012460] (-) TimerEvent: {}
+[3.115067] (-) TimerEvent: {}
+[3.217912] (-) TimerEvent: {}
+[3.319689] (-) TimerEvent: {}
+[3.408555] (cplusplus_laser_map) JobProgress: {'identifier': 'cplusplus_laser_map', 'progress': 'cmake'}
+[3.412171] (cplusplus_laser_map) JobProgress: {'identifier': 'cplusplus_laser_map', 'progress': 'build'}
+[3.415225] (cplusplus_laser_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prez/git/humble-lidar/build/cplusplus_laser_map', '--', '-j4', '-l4'], 'cwd': '/home/prez/git/humble-lidar/build/cplusplus_laser_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/git/humble-lidar/install/rplidar_ros/lib:/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6dc9b76b-e2cd-4dec-be22-054fe5afd80d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/humble-lidar/install:/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/cplusplus_laser_map'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[3.419956] (-) TimerEvent: {}
+[3.440106] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[3.443344] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[3.444655] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prez/git/humble-lidar/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/prez/git/humble-lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/git/humble-lidar/install/rplidar_ros/lib:/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6dc9b76b-e2cd-4dec-be22-054fe5afd80d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/humble-lidar/install:/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[3.520361] (-) TimerEvent: {}
+[3.623239] (-) TimerEvent: {}
+[3.725310] (-) TimerEvent: {}
+[3.829747] (-) TimerEvent: {}
+[3.933838] (-) TimerEvent: {}
+[3.989358] (cplusplus_laser_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reading_laser\x1b[0m\n'}
+[4.037800] (-) TimerEvent: {}
+[4.141901] (-) TimerEvent: {}
+[4.244935] (-) TimerEvent: {}
+[4.275253] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[4.345382] (-) TimerEvent: {}
+[4.361227] (cplusplus_laser_map) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o\x1b[0m\n'}
+[4.446269] (-) TimerEvent: {}
+[4.548099] (-) TimerEvent: {}
+[4.654049] (-) TimerEvent: {}
+[4.741672] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[4.754395] (-) TimerEvent: {}
+[4.862618] (-) TimerEvent: {}
+[4.909796] (rplidar_ros) CommandEnded: {'returncode': 0}
+[4.962968] (-) TimerEvent: {}
+[5.064950] (-) TimerEvent: {}
+[5.166593] (-) TimerEvent: {}
+[5.270205] (-) TimerEvent: {}
+[5.372904] (-) TimerEvent: {}
+[5.476214] (-) TimerEvent: {}
+[5.577730] (-) TimerEvent: {}
+[5.681773] (-) TimerEvent: {}
+[5.783617] (-) TimerEvent: {}
+[5.857360] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[5.883915] (-) TimerEvent: {}
+[5.988549] (-) TimerEvent: {}
+[6.019798] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prez/git/humble-lidar/build/rplidar_ros'], 'cwd': '/home/prez/git/humble-lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/git/humble-lidar/install/rplidar_ros/lib:/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6dc9b76b-e2cd-4dec-be22-054fe5afd80d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/humble-lidar/install:/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[6.089040] (-) TimerEvent: {}
+[6.116915] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.126180] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.130692] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.136835] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[6.138973] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[6.143842] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[6.147459] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[6.149601] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[6.156867] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[6.166316] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[6.167953] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[6.172230] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[6.173817] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[6.175928] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[6.177084] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[6.178482] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/include/visibility.h\n'}
+[6.180459] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.188156] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[6.189804] (-) TimerEvent: {}
+[6.195801] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[6.201397] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[6.207068] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[6.212648] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[6.218356] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[6.224480] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[6.230371] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[6.235888] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[6.240908] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[6.245251] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[6.290148] (-) TimerEvent: {}
+[6.371637] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[6.381188] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[6.389063] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.390696] (-) TimerEvent: {}
+[6.397885] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.399440] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[6.400762] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[6.402119] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[6.414516] (rplidar_ros) CommandEnded: {'returncode': 0}
+[6.491259] (-) TimerEvent: {}
+[6.594325] (-) TimerEvent: {}
+[6.697589] (-) TimerEvent: {}
+[6.799541] (-) TimerEvent: {}
+[6.904221] (-) TimerEvent: {}
+[7.012169] (-) TimerEvent: {}
+[7.118275] (-) TimerEvent: {}
+[7.227619] (-) TimerEvent: {}
+[7.331131] (-) TimerEvent: {}
+[7.433766] (-) TimerEvent: {}
+[7.557637] (-) TimerEvent: {}
+[7.674005] (-) TimerEvent: {}
+[7.777861] (-) TimerEvent: {}
+[7.879920] (-) TimerEvent: {}
+[7.985676] (-) TimerEvent: {}
+[8.088083] (-) TimerEvent: {}
+[8.190812] (-) TimerEvent: {}
+[8.292526] (-) TimerEvent: {}
+[8.397458] (-) TimerEvent: {}
+[8.500516] (-) TimerEvent: {}
+[8.602996] (-) TimerEvent: {}
+[8.706018] (-) TimerEvent: {}
+[8.808118] (-) TimerEvent: {}
+[8.915757] (-) TimerEvent: {}
+[9.021315] (-) TimerEvent: {}
+[9.127376] (-) TimerEvent: {}
+[9.235530] (-) TimerEvent: {}
+[9.338374] (-) TimerEvent: {}
+[9.442684] (-) TimerEvent: {}
+[9.546631] (-) TimerEvent: {}
+[9.657910] (-) TimerEvent: {}
+[9.764702] (-) TimerEvent: {}
+[9.870706] (-) TimerEvent: {}
+[9.974295] (-) TimerEvent: {}
+[10.083974] (-) TimerEvent: {}
+[10.189814] (-) TimerEvent: {}
+[10.292400] (-) TimerEvent: {}
+[10.295496] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[10.392633] (-) TimerEvent: {}
+[10.493477] (-) TimerEvent: {}
+[10.594628] (-) TimerEvent: {}
+[10.695572] (-) TimerEvent: {}
+[10.796369] (-) TimerEvent: {}
+[10.897192] (-) TimerEvent: {}
+[10.998046] (-) TimerEvent: {}
+[11.098907] (-) TimerEvent: {}
+[11.200044] (-) TimerEvent: {}
+[11.300868] (-) TimerEvent: {}
+[11.401702] (-) TimerEvent: {}
+[11.502547] (-) TimerEvent: {}
+[11.603458] (-) TimerEvent: {}
+[11.704289] (-) TimerEvent: {}
+[11.805287] (-) TimerEvent: {}
+[11.906283] (-) TimerEvent: {}
+[12.007078] (-) TimerEvent: {}
+[12.107889] (-) TimerEvent: {}
+[12.208707] (-) TimerEvent: {}
+[12.309623] (-) TimerEvent: {}
+[12.410578] (-) TimerEvent: {}
+[12.511396] (-) TimerEvent: {}
+[12.612331] (-) TimerEvent: {}
+[12.713242] (-) TimerEvent: {}
+[12.814220] (-) TimerEvent: {}
+[12.915045] (-) TimerEvent: {}
+[13.015962] (-) TimerEvent: {}
+[13.116816] (-) TimerEvent: {}
+[13.217670] (-) TimerEvent: {}
+[13.318520] (-) TimerEvent: {}
+[13.419441] (-) TimerEvent: {}
+[13.520268] (-) TimerEvent: {}
+[13.621105] (-) TimerEvent: {}
+[13.722171] (-) TimerEvent: {}
+[13.823059] (-) TimerEvent: {}
+[13.923854] (-) TimerEvent: {}
+[14.024729] (-) TimerEvent: {}
+[14.125700] (-) TimerEvent: {}
+[14.226555] (-) TimerEvent: {}
+[14.327400] (-) TimerEvent: {}
+[14.428214] (-) TimerEvent: {}
+[14.529019] (-) TimerEvent: {}
+[14.629857] (-) TimerEvent: {}
+[14.730670] (-) TimerEvent: {}
+[14.831517] (-) TimerEvent: {}
+[14.932362] (-) TimerEvent: {}
+[15.033265] (-) TimerEvent: {}
+[15.134125] (-) TimerEvent: {}
+[15.234971] (-) TimerEvent: {}
+[15.335916] (-) TimerEvent: {}
+[15.436747] (-) TimerEvent: {}
+[15.537780] (-) TimerEvent: {}
+[15.638618] (-) TimerEvent: {}
+[15.739554] (-) TimerEvent: {}
+[15.840375] (-) TimerEvent: {}
+[15.941255] (-) TimerEvent: {}
+[16.042185] (-) TimerEvent: {}
+[16.143178] (-) TimerEvent: {}
+[16.244245] (-) TimerEvent: {}
+[16.358135] (-) TimerEvent: {}
+[16.460231] (-) TimerEvent: {}
+[16.562195] (-) TimerEvent: {}
+[16.664186] (-) TimerEvent: {}
+[16.765927] (-) TimerEvent: {}
+[16.871730] (-) TimerEvent: {}
+[16.973363] (-) TimerEvent: {}
+[17.075168] (-) TimerEvent: {}
+[17.177148] (-) TimerEvent: {}
+[17.278970] (-) TimerEvent: {}
+[17.380778] (-) TimerEvent: {}
+[17.482600] (-) TimerEvent: {}
+[17.584426] (-) TimerEvent: {}
+[17.686451] (-) TimerEvent: {}
+[17.788347] (-) TimerEvent: {}
+[17.890036] (-) TimerEvent: {}
+[17.991657] (-) TimerEvent: {}
+[18.093335] (-) TimerEvent: {}
+[18.195171] (-) TimerEvent: {}
+[18.296876] (-) TimerEvent: {}
+[18.398675] (-) TimerEvent: {}
+[18.500324] (-) TimerEvent: {}
+[18.602021] (-) TimerEvent: {}
+[18.703672] (-) TimerEvent: {}
+[18.805291] (-) TimerEvent: {}
+[18.907029] (-) TimerEvent: {}
+[19.008735] (-) TimerEvent: {}
+[19.110377] (-) TimerEvent: {}
+[19.211225] (-) TimerEvent: {}
+[19.312150] (-) TimerEvent: {}
+[19.413028] (-) TimerEvent: {}
+[19.513894] (-) TimerEvent: {}
+[19.614752] (-) TimerEvent: {}
+[19.715584] (-) TimerEvent: {}
+[19.816476] (-) TimerEvent: {}
+[19.917330] (-) TimerEvent: {}
+[20.018316] (-) TimerEvent: {}
+[20.119189] (-) TimerEvent: {}
+[20.220069] (-) TimerEvent: {}
+[20.321012] (-) TimerEvent: {}
+[20.421901] (-) TimerEvent: {}
+[20.522746] (-) TimerEvent: {}
+[20.527019] (cplusplus_laser_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[20.527940] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.528408] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[20.528838] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.529385] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.529989] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.530530] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.531064] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.531496] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.531981] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.532436] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.532822] (cplusplus_laser_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:3\x1b[m\x1b[K:\n'}
+[20.533210] (cplusplus_laser_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReadingLaser::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.533782] (cplusplus_laser_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:24:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.534318] (cplusplus_laser_map) StderrLine: {'line': b'   24 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Angle: %d\xc2\xb0, Distance: %f m"\x1b[m\x1b[K, \x1b[32m\x1b[Krange_index_\x1b[m\x1b[K, _msg->ranges[range_index_]);\n'}
+[20.534737] (cplusplus_laser_map) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.535138] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.535545] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.535989] (cplusplus_laser_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:24:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.536408] (cplusplus_laser_map) StderrLine: {'line': b'   24 |         RCLCPP_INFO(this->get_logger(), "Angle: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xc2\xb0, Distance: %f m", range_index_, _msg->ranges[range_index_]);\n'}
+[20.536824] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.537296] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.537927] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.538508] (cplusplus_laser_map) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.623099] (-) TimerEvent: {}
+[20.724830] (-) TimerEvent: {}
+[20.826647] (-) TimerEvent: {}
+[20.928352] (-) TimerEvent: {}
+[21.030198] (-) TimerEvent: {}
+[21.132169] (-) TimerEvent: {}
+[21.233997] (-) TimerEvent: {}
+[21.335675] (-) TimerEvent: {}
+[21.437398] (-) TimerEvent: {}
+[21.539189] (-) TimerEvent: {}
+[21.640834] (-) TimerEvent: {}
+[21.742658] (-) TimerEvent: {}
+[21.844249] (-) TimerEvent: {}
+[21.945809] (-) TimerEvent: {}
+[22.047617] (-) TimerEvent: {}
+[22.149267] (-) TimerEvent: {}
+[22.251088] (-) TimerEvent: {}
+[22.352798] (-) TimerEvent: {}
+[22.454543] (-) TimerEvent: {}
+[22.556204] (-) TimerEvent: {}
+[22.657935] (-) TimerEvent: {}
+[22.759592] (-) TimerEvent: {}
+[22.861213] (-) TimerEvent: {}
+[22.962961] (-) TimerEvent: {}
+[23.064653] (-) TimerEvent: {}
+[23.166369] (-) TimerEvent: {}
+[23.268244] (-) TimerEvent: {}
+[23.369966] (-) TimerEvent: {}
+[23.471598] (-) TimerEvent: {}
+[23.573293] (-) TimerEvent: {}
+[23.675235] (-) TimerEvent: {}
+[23.776988] (-) TimerEvent: {}
+[23.878662] (-) TimerEvent: {}
+[23.979489] (-) TimerEvent: {}
+[24.080320] (-) TimerEvent: {}
+[24.181147] (-) TimerEvent: {}
+[24.282113] (-) TimerEvent: {}
+[24.382963] (-) TimerEvent: {}
+[24.483770] (-) TimerEvent: {}
+[24.584601] (-) TimerEvent: {}
+[24.685503] (-) TimerEvent: {}
+[24.786292] (-) TimerEvent: {}
+[24.887156] (-) TimerEvent: {}
+[24.988031] (-) TimerEvent: {}
+[25.088899] (-) TimerEvent: {}
+[25.189783] (-) TimerEvent: {}
+[25.290597] (-) TimerEvent: {}
+[25.391459] (-) TimerEvent: {}
+[25.492256] (-) TimerEvent: {}
+[25.593108] (-) TimerEvent: {}
+[25.694009] (-) TimerEvent: {}
+[25.794845] (-) TimerEvent: {}
+[25.895741] (-) TimerEvent: {}
+[25.996517] (-) TimerEvent: {}
+[26.097781] (-) TimerEvent: {}
+[26.199242] (-) TimerEvent: {}
+[26.301108] (-) TimerEvent: {}
+[26.403032] (-) TimerEvent: {}
+[26.504734] (-) TimerEvent: {}
+[26.606498] (-) TimerEvent: {}
+[26.708101] (-) TimerEvent: {}
+[26.809755] (-) TimerEvent: {}
+[26.911364] (-) TimerEvent: {}
+[27.012980] (-) TimerEvent: {}
+[27.115064] (-) TimerEvent: {}
+[27.217059] (-) TimerEvent: {}
+[27.319236] (-) TimerEvent: {}
+[27.421302] (-) TimerEvent: {}
+[27.522997] (-) TimerEvent: {}
+[27.624670] (-) TimerEvent: {}
+[27.726363] (-) TimerEvent: {}
+[27.828012] (-) TimerEvent: {}
+[27.929734] (-) TimerEvent: {}
+[28.031344] (-) TimerEvent: {}
+[28.133398] (-) TimerEvent: {}
+[28.235278] (-) TimerEvent: {}
+[28.336977] (-) TimerEvent: {}
+[28.438695] (-) TimerEvent: {}
+[28.540366] (-) TimerEvent: {}
+[28.642197] (-) TimerEvent: {}
+[28.743824] (-) TimerEvent: {}
+[28.845398] (-) TimerEvent: {}
+[28.947012] (-) TimerEvent: {}
+[29.048711] (-) TimerEvent: {}
+[29.150585] (-) TimerEvent: {}
+[29.252273] (-) TimerEvent: {}
+[29.354004] (-) TimerEvent: {}
+[29.455667] (-) TimerEvent: {}
+[29.556526] (-) TimerEvent: {}
+[29.657604] (-) TimerEvent: {}
+[29.758827] (-) TimerEvent: {}
+[29.859724] (-) TimerEvent: {}
+[29.960566] (-) TimerEvent: {}
+[30.061469] (-) TimerEvent: {}
+[30.162329] (-) TimerEvent: {}
+[30.263193] (-) TimerEvent: {}
+[30.364083] (-) TimerEvent: {}
+[30.464942] (-) TimerEvent: {}
+[30.565877] (-) TimerEvent: {}
+[30.666847] (-) TimerEvent: {}
+[30.767846] (-) TimerEvent: {}
+[30.868802] (-) TimerEvent: {}
+[30.969622] (-) TimerEvent: {}
+[31.070413] (-) TimerEvent: {}
+[31.171309] (-) TimerEvent: {}
+[31.272167] (-) TimerEvent: {}
+[31.373001] (-) TimerEvent: {}
+[31.473910] (-) TimerEvent: {}
+[31.574802] (-) TimerEvent: {}
+[31.675720] (-) TimerEvent: {}
+[31.776652] (-) TimerEvent: {}
+[31.877548] (-) TimerEvent: {}
+[31.978368] (-) TimerEvent: {}
+[32.079239] (-) TimerEvent: {}
+[32.180249] (-) TimerEvent: {}
+[32.281684] (-) TimerEvent: {}
+[32.383190] (-) TimerEvent: {}
+[32.484641] (-) TimerEvent: {}
+[32.586241] (-) TimerEvent: {}
+[32.687759] (-) TimerEvent: {}
+[32.789232] (-) TimerEvent: {}
+[32.890752] (-) TimerEvent: {}
+[32.992214] (-) TimerEvent: {}
+[33.094050] (-) TimerEvent: {}
+[33.195509] (-) TimerEvent: {}
+[33.297011] (-) TimerEvent: {}
+[33.398691] (-) TimerEvent: {}
+[33.500297] (-) TimerEvent: {}
+[33.601946] (-) TimerEvent: {}
+[33.703658] (-) TimerEvent: {}
+[33.805254] (-) TimerEvent: {}
+[33.907014] (-) TimerEvent: {}
+[34.008680] (-) TimerEvent: {}
+[34.110360] (-) TimerEvent: {}
+[34.212018] (-) TimerEvent: {}
+[34.313651] (-) TimerEvent: {}
+[34.415278] (-) TimerEvent: {}
+[34.516890] (-) TimerEvent: {}
+[34.618561] (-) TimerEvent: {}
+[34.720267] (-) TimerEvent: {}
+[34.822054] (-) TimerEvent: {}
+[34.923739] (-) TimerEvent: {}
+[35.025941] (-) TimerEvent: {}
+[35.127729] (-) TimerEvent: {}
+[35.229264] (-) TimerEvent: {}
+[35.331178] (-) TimerEvent: {}
+[35.433335] (-) TimerEvent: {}
+[35.535367] (-) TimerEvent: {}
+[35.636178] (-) TimerEvent: {}
+[35.737049] (-) TimerEvent: {}
+[35.837962] (-) TimerEvent: {}
+[35.938789] (-) TimerEvent: {}
+[36.039839] (-) TimerEvent: {}
+[36.143205] (-) TimerEvent: {}
+[36.244706] (-) TimerEvent: {}
+[36.347405] (-) TimerEvent: {}
+[36.450316] (-) TimerEvent: {}
+[36.551860] (-) TimerEvent: {}
+[36.653509] (-) TimerEvent: {}
+[36.755207] (-) TimerEvent: {}
+[36.857933] (-) TimerEvent: {}
+[36.959566] (-) TimerEvent: {}
+[37.061128] (-) TimerEvent: {}
+[37.162792] (-) TimerEvent: {}
+[37.264708] (-) TimerEvent: {}
+[37.366989] (-) TimerEvent: {}
+[37.468629] (-) TimerEvent: {}
+[37.570334] (-) TimerEvent: {}
+[37.671947] (-) TimerEvent: {}
+[37.773647] (-) TimerEvent: {}
+[37.875257] (-) TimerEvent: {}
+[37.976887] (-) TimerEvent: {}
+[38.078705] (-) TimerEvent: {}
+[38.180207] (-) TimerEvent: {}
+[38.282063] (-) TimerEvent: {}
+[38.383641] (-) TimerEvent: {}
+[38.485279] (-) TimerEvent: {}
+[38.587195] (-) TimerEvent: {}
+[38.688854] (-) TimerEvent: {}
+[38.790911] (-) TimerEvent: {}
+[38.892530] (-) TimerEvent: {}
+[38.994254] (-) TimerEvent: {}
+[39.096719] (-) TimerEvent: {}
+[39.198553] (-) TimerEvent: {}
+[39.300228] (-) TimerEvent: {}
+[39.402056] (-) TimerEvent: {}
+[39.503609] (-) TimerEvent: {}
+[39.605103] (-) TimerEvent: {}
+[39.705916] (-) TimerEvent: {}
+[39.806681] (-) TimerEvent: {}
+[39.907504] (-) TimerEvent: {}
+[40.008465] (-) TimerEvent: {}
+[40.109303] (-) TimerEvent: {}
+[40.210269] (-) TimerEvent: {}
+[40.311028] (-) TimerEvent: {}
+[40.411846] (-) TimerEvent: {}
+[40.512639] (-) TimerEvent: {}
+[40.613469] (-) TimerEvent: {}
+[40.714324] (-) TimerEvent: {}
+[40.815156] (-) TimerEvent: {}
+[40.915998] (-) TimerEvent: {}
+[41.016983] (-) TimerEvent: {}
+[41.118128] (-) TimerEvent: {}
+[41.218987] (-) TimerEvent: {}
+[41.319823] (-) TimerEvent: {}
+[41.420632] (-) TimerEvent: {}
+[41.521572] (-) TimerEvent: {}
+[41.622378] (-) TimerEvent: {}
+[41.723212] (-) TimerEvent: {}
+[41.824087] (-) TimerEvent: {}
+[41.924915] (-) TimerEvent: {}
+[42.025914] (-) TimerEvent: {}
+[42.126695] (-) TimerEvent: {}
+[42.227627] (-) TimerEvent: {}
+[42.328545] (-) TimerEvent: {}
+[42.429339] (-) TimerEvent: {}
+[42.530221] (-) TimerEvent: {}
+[42.631035] (-) TimerEvent: {}
+[42.731925] (-) TimerEvent: {}
+[42.832705] (-) TimerEvent: {}
+[42.933581] (-) TimerEvent: {}
+[43.034365] (-) TimerEvent: {}
+[43.135218] (-) TimerEvent: {}
+[43.236061] (-) TimerEvent: {}
+[43.336880] (-) TimerEvent: {}
+[43.437819] (-) TimerEvent: {}
+[43.538646] (-) TimerEvent: {}
+[43.639523] (-) TimerEvent: {}
+[43.740337] (-) TimerEvent: {}
+[43.841164] (-) TimerEvent: {}
+[43.942021] (-) TimerEvent: {}
+[44.042963] (-) TimerEvent: {}
+[44.143928] (-) TimerEvent: {}
+[44.244741] (-) TimerEvent: {}
+[44.345586] (-) TimerEvent: {}
+[44.446392] (-) TimerEvent: {}
+[44.547257] (-) TimerEvent: {}
+[44.648038] (-) TimerEvent: {}
+[44.748850] (-) TimerEvent: {}
+[44.849684] (-) TimerEvent: {}
+[44.950490] (-) TimerEvent: {}
+[45.051366] (-) TimerEvent: {}
+[45.152222] (-) TimerEvent: {}
+[45.253031] (-) TimerEvent: {}
+[45.353923] (-) TimerEvent: {}
+[45.454712] (-) TimerEvent: {}
+[45.555526] (-) TimerEvent: {}
+[45.656348] (-) TimerEvent: {}
+[45.757192] (-) TimerEvent: {}
+[45.858051] (-) TimerEvent: {}
+[45.958948] (-) TimerEvent: {}
+[46.059824] (-) TimerEvent: {}
+[46.160921] (-) TimerEvent: {}
+[46.262823] (-) TimerEvent: {}
+[46.364483] (-) TimerEvent: {}
+[46.466125] (-) TimerEvent: {}
+[46.567795] (-) TimerEvent: {}
+[46.669577] (-) TimerEvent: {}
+[46.771132] (-) TimerEvent: {}
+[46.872697] (-) TimerEvent: {}
+[46.974863] (-) TimerEvent: {}
+[47.076460] (-) TimerEvent: {}
+[47.178218] (-) TimerEvent: {}
+[47.279853] (-) TimerEvent: {}
+[47.381619] (-) TimerEvent: {}
+[47.483708] (-) TimerEvent: {}
+[47.585323] (-) TimerEvent: {}
+[47.687084] (-) TimerEvent: {}
+[47.788602] (-) TimerEvent: {}
+[47.890210] (-) TimerEvent: {}
+[47.991870] (-) TimerEvent: {}
+[48.093480] (-) TimerEvent: {}
+[48.195057] (-) TimerEvent: {}
+[48.296660] (-) TimerEvent: {}
+[48.398516] (-) TimerEvent: {}
+[48.500127] (-) TimerEvent: {}
+[48.601914] (-) TimerEvent: {}
+[48.703606] (-) TimerEvent: {}
+[48.805277] (-) TimerEvent: {}
+[48.906971] (-) TimerEvent: {}
+[49.007785] (-) TimerEvent: {}
+[49.108637] (-) TimerEvent: {}
+[49.209484] (-) TimerEvent: {}
+[49.310308] (-) TimerEvent: {}
+[49.411176] (-) TimerEvent: {}
+[49.511972] (-) TimerEvent: {}
+[49.612713] (-) TimerEvent: {}
+[49.713525] (-) TimerEvent: {}
+[49.814295] (-) TimerEvent: {}
+[49.915136] (-) TimerEvent: {}
+[50.015916] (-) TimerEvent: {}
+[50.116712] (-) TimerEvent: {}
+[50.217557] (-) TimerEvent: {}
+[50.318369] (-) TimerEvent: {}
+[50.419197] (-) TimerEvent: {}
+[50.520065] (-) TimerEvent: {}
+[50.620857] (-) TimerEvent: {}
+[50.721758] (-) TimerEvent: {}
+[50.823349] (-) TimerEvent: {}
+[50.924907] (-) TimerEvent: {}
+[51.026347] (-) TimerEvent: {}
+[51.127607] (-) TimerEvent: {}
+[51.229077] (-) TimerEvent: {}
+[51.331126] (-) TimerEvent: {}
+[51.432779] (-) TimerEvent: {}
+[51.534364] (-) TimerEvent: {}
+[51.635873] (-) TimerEvent: {}
+[51.737242] (-) TimerEvent: {}
+[51.838280] (-) TimerEvent: {}
+[51.939633] (-) TimerEvent: {}
+[52.040870] (-) TimerEvent: {}
+[52.142259] (-) TimerEvent: {}
+[52.243008] (-) TimerEvent: {}
+[52.343838] (-) TimerEvent: {}
+[52.444642] (-) TimerEvent: {}
+[52.545664] (-) TimerEvent: {}
+[52.647187] (-) TimerEvent: {}
+[52.748683] (-) TimerEvent: {}
+[52.850268] (-) TimerEvent: {}
+[52.951855] (-) TimerEvent: {}
+[53.053373] (-) TimerEvent: {}
+[53.154954] (-) TimerEvent: {}
+[53.256547] (-) TimerEvent: {}
+[53.358231] (-) TimerEvent: {}
+[53.459761] (-) TimerEvent: {}
+[53.561506] (-) TimerEvent: {}
+[53.662945] (-) TimerEvent: {}
+[53.764501] (-) TimerEvent: {}
+[53.866049] (-) TimerEvent: {}
+[53.967560] (-) TimerEvent: {}
+[54.069161] (-) TimerEvent: {}
+[54.170807] (-) TimerEvent: {}
+[54.272736] (-) TimerEvent: {}
+[54.374397] (-) TimerEvent: {}
+[54.475963] (-) TimerEvent: {}
+[54.577684] (-) TimerEvent: {}
+[54.679267] (-) TimerEvent: {}
+[54.780813] (-) TimerEvent: {}
+[54.882412] (-) TimerEvent: {}
+[54.984009] (-) TimerEvent: {}
+[55.085620] (-) TimerEvent: {}
+[55.187162] (-) TimerEvent: {}
+[55.288785] (-) TimerEvent: {}
+[55.390441] (-) TimerEvent: {}
+[55.492024] (-) TimerEvent: {}
+[55.593650] (-) TimerEvent: {}
+[55.695133] (-) TimerEvent: {}
+[55.796663] (-) TimerEvent: {}
+[55.897541] (-) TimerEvent: {}
+[55.998354] (-) TimerEvent: {}
+[56.099439] (-) TimerEvent: {}
+[56.201505] (-) TimerEvent: {}
+[56.302792] (-) TimerEvent: {}
+[56.403721] (-) TimerEvent: {}
+[56.504718] (-) TimerEvent: {}
+[56.605938] (-) TimerEvent: {}
+[56.707664] (-) TimerEvent: {}
+[56.809582] (-) TimerEvent: {}
+[56.911766] (-) TimerEvent: {}
+[57.013959] (-) TimerEvent: {}
+[57.115546] (-) TimerEvent: {}
+[57.133040] (cplusplus_laser_map) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable reading_laser\x1b[0m\n'}
+[57.215947] (-) TimerEvent: {}
+[57.318003] (-) TimerEvent: {}
+[57.419946] (-) TimerEvent: {}
+[57.522389] (-) TimerEvent: {}
+[57.624074] (-) TimerEvent: {}
+[57.726004] (-) TimerEvent: {}
+[57.828420] (-) TimerEvent: {}
+[57.930357] (-) TimerEvent: {}
+[58.033243] (-) TimerEvent: {}
+[58.135749] (-) TimerEvent: {}
+[58.238141] (-) TimerEvent: {}
+[58.340710] (-) TimerEvent: {}
+[58.443120] (-) TimerEvent: {}
+[58.544396] (-) TimerEvent: {}
+[58.645696] (-) TimerEvent: {}
+[58.746666] (-) TimerEvent: {}
+[58.847658] (-) TimerEvent: {}
+[58.948889] (-) TimerEvent: {}
+[59.050092] (-) TimerEvent: {}
+[59.153673] (-) TimerEvent: {}
+[59.255398] (-) TimerEvent: {}
+[59.357204] (-) TimerEvent: {}
+[59.458976] (-) TimerEvent: {}
+[59.560608] (-) TimerEvent: {}
+[59.662136] (-) TimerEvent: {}
+[59.763797] (-) TimerEvent: {}
+[59.865747] (-) TimerEvent: {}
+[59.967742] (-) TimerEvent: {}
+[60.069260] (-) TimerEvent: {}
+[60.171083] (-) TimerEvent: {}
+[60.273133] (-) TimerEvent: {}
+[60.375436] (-) TimerEvent: {}
+[60.479877] (-) TimerEvent: {}
+[60.581406] (-) TimerEvent: {}
+[60.683078] (-) TimerEvent: {}
+[60.784756] (-) TimerEvent: {}
+[60.886786] (-) TimerEvent: {}
+[60.988856] (-) TimerEvent: {}
+[61.091280] (-) TimerEvent: {}
+[61.130454] (cplusplus_laser_map) StdoutLine: {'line': b'[100%] Built target reading_laser\n'}
+[61.191605] (-) TimerEvent: {}
+[61.279377] (cplusplus_laser_map) CommandEnded: {'returncode': 0}
+[61.291973] (-) TimerEvent: {}
+[61.396302] (-) TimerEvent: {}
+[61.497673] (-) TimerEvent: {}
+[61.540047] (cplusplus_laser_map) JobProgress: {'identifier': 'cplusplus_laser_map', 'progress': 'install'}
+[61.547769] (cplusplus_laser_map) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prez/git/humble-lidar/build/cplusplus_laser_map'], 'cwd': '/home/prez/git/humble-lidar/build/cplusplus_laser_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prez'), ('SSH_CLIENT', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prez/git/humble-lidar/install/rplidar_ros/lib:/home/prez/ros2_ws/install/turtlesim/lib:/home/prez/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/prez'), ('OLDPWD', '/home/prez/git/humble-lidar/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6dc9b76b-e2cd-4dec-be22-054fe5afd80d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/prez/git/humble-lidar/install:/home/prez/git/lidar/install:/home/prez/git/c++lidar-project/install:/home/prez/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('ZACHARY', 'AWESOME'), ('PATH', '/home/prez/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/home/prez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc4268a53f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/prez/git/humble-lidar/build/cplusplus_laser_map'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2601:249:1a81:abd0:8c59:e80e:a133:b0d3 50496 2601:249:1a81:abd0:b096:5680:2474:543f 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prez/git/c++lidar-project/install/py_pubsub/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/motor_package/lib/python3.10/site-packages:/home/prez/git/c++lidar-project/install/ir_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/prez/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/prez/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/prez/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/prez/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/prez/git/humble-lidar/install/cplusplus_laser_map:/home/prez/git/humble-lidar/install/rplidar_ros:/home/prez/git/lidar/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/sllidar_ros2:/home/prez/git/c++lidar-project/install/lidar-driver:/home/prez/ros2_ws/install/turtlesim:/home/prez/ros2_ws/install/examples_rclcpp_wait_set:/home/prez/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/prez/ros2_ws/install/examples_rclcpp_minimal_timer:/home/prez/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclcpp_minimal_service:/home/prez/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/prez/ros2_ws/install/examples_rclcpp_minimal_composition:/home/prez/ros2_ws/install/examples_rclcpp_minimal_client:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/prez/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/prez/ros2_ws/install/examples_rclcpp_cbg_executor:/home/prez/ros2_ws/install/examples_rclcpp_async_client:/home/prez/ros2_ws/install/cpp_pubsub:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[61.583671] (cplusplus_laser_map) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[61.585118] (cplusplus_laser_map) StdoutLine: {'line': b'-- Installing: /home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/cplusplus_laser_map/reading_laser\n'}
+[61.597998] (-) TimerEvent: {}
+[61.659981] (cplusplus_laser_map) StdoutLine: {'line': b'-- Set runtime path of "/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/cplusplus_laser_map/reading_laser" to ""\n'}
+[61.663970] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/package_run_dependencies/cplusplus_laser_map\n'}
+[61.665760] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/parent_prefix_path/cplusplus_laser_map\n'}
+[61.667206] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/ament_prefix_path.sh\n'}
+[61.668514] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/ament_prefix_path.dsv\n'}
+[61.669873] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/path.sh\n'}
+[61.671118] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/environment/path.dsv\n'}
+[61.672575] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.bash\n'}
+[61.673836] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.sh\n'}
+[61.674861] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.zsh\n'}
+[61.675762] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/local_setup.dsv\n'}
+[61.676800] (cplusplus_laser_map) StdoutLine: {'line': b'-- Installing: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.dsv\n'}
+[61.678121] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/ament_index/resource_index/packages/cplusplus_laser_map\n'}
+[61.679316] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/cmake/cplusplus_laser_mapConfig.cmake\n'}
+[61.680759] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/cmake/cplusplus_laser_mapConfig-version.cmake\n'}
+[61.681977] (cplusplus_laser_map) StdoutLine: {'line': b'-- Up-to-date: /home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.xml\n'}
+[61.694238] (cplusplus_laser_map) CommandEnded: {'returncode': 0}
+[61.698662] (-) TimerEvent: {}
+[61.800206] (-) TimerEvent: {}
+[61.903566] (-) TimerEvent: {}
+[62.006913] (-) TimerEvent: {}
+[62.109909] (-) TimerEvent: {}
+[62.212688] (-) TimerEvent: {}
+[62.314493] (-) TimerEvent: {}
+[62.416612] (-) TimerEvent: {}
+[62.522676] (-) TimerEvent: {}
+[62.624154] (-) TimerEvent: {}
+[62.725672] (-) TimerEvent: {}
+[62.826503] (-) TimerEvent: {}
+[62.927539] (-) TimerEvent: {}
+[63.028471] (-) TimerEvent: {}
+[63.108171] (cplusplus_laser_map) JobEnded: {'identifier': 'cplusplus_laser_map', 'rc': 0}
+[63.112252] (-) EventReactorShutdown: {}

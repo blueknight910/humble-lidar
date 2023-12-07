@@ -1,0 +1,216 @@
+[4.537s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.537s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa0cb8a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1229f00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1229f00>>)
+[4.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.818s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/prez/git/humble-lidar'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.885s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.885s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.887s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.887s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.887s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extensions ['ignore', 'ignore_ament_install']
+[4.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extension 'ignore'
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extension 'ignore_ament_install'
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extensions ['colcon_pkg']
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extension 'colcon_pkg'
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extensions ['colcon_meta']
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extension 'colcon_meta'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extensions ['ros']
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplusplus_laser_map) by extension 'ros'
+[4.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cplusplus_laser_map' with type 'ros.ament_cmake' and name 'cplusplus_laser_map'
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[4.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[4.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/prez/git/humble-lidar/install
+[5.567s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/prez/git/lidar/install
+[5.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/prez/git/c++lidar-project/install
+[5.711s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/prez/ros2_ws/install
+[5.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[5.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.194s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_args' from command line to 'None'
+[6.194s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_target' from command line to 'None'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_clean_cache' from command line to 'False'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_clean_first' from command line to 'False'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'cmake_force_configure' from command line to 'False'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'ament_cmake_args' from command line to 'None'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'catkin_cmake_args' from command line to 'None'
+[6.195s] Level 5:colcon.colcon_core.verb:set package 'cplusplus_laser_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.195s] DEBUG:colcon.colcon_core.verb:Building package 'cplusplus_laser_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prez/git/humble-lidar/build/cplusplus_laser_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prez/git/humble-lidar/install/cplusplus_laser_map', 'merge_install': False, 'path': '/home/prez/git/humble-lidar/src/cplusplus_laser_map', 'symlink_install': False, 'test_result_base': None}
+[6.262s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[6.262s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[6.263s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.263s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prez/git/humble-lidar/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prez/git/humble-lidar/install/rplidar_ros', 'merge_install': False, 'path': '/home/prez/git/humble-lidar/src/rplidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[6.329s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prez/git/humble-lidar/src/cplusplus_laser_map' with build type 'ament_cmake'
+[6.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prez/git/humble-lidar/src/cplusplus_laser_map'
+[6.488s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.027s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prez/git/humble-lidar/src/rplidar_ros2' with build type 'ament_cmake'
+[7.027s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prez/git/humble-lidar/src/rplidar_ros2'
+[7.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[7.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prez/git/humble-lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/rplidar_ros -- -j4 -l4
+[8.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[8.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prez/git/humble-lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/rplidar_ros -- -j4 -l4
+[8.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/cplusplus_laser_map
+[8.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cplusplus_laser_map)
+[8.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/cplusplus_laser_map
+[9.013s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map' for CMake module files
+[9.016s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map' for CMake config files
+[9.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('cplusplus_laser_map', 'cmake_prefix_path')
+[9.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.ps1'
+[9.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.dsv'
+[9.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.sh'
+[9.120s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib'
+[9.122s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/bin'
+[9.122s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/pkgconfig/cplusplus_laser_map.pc'
+[9.125s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/python3.10/site-packages'
+[9.126s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/bin'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.ps1'
+[9.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.dsv'
+[9.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.sh'
+[9.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.bash'
+[9.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.zsh'
+[9.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/colcon-core/packages/cplusplus_laser_map)
+[9.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prez/git/humble-lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/rplidar_ros
+[9.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prez/git/humble-lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/prez/git/humble-lidar/build/rplidar_ros
+[9.527s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros' for CMake module files
+[9.530s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros' for CMake config files
+[9.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[9.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.608s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib'
+[9.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[9.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[9.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[9.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[9.683s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/bin'
+[9.683s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.684s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib/python3.10/site-packages'
+[9.685s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/bin'
+[9.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[9.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.bash'
+[9.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[9.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prez/git/humble-lidar/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cplusplus_laser_map)
+[9.950s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map' for CMake module files
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map' for CMake config files
+[9.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('cplusplus_laser_map', 'cmake_prefix_path')
+[10.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.ps1'
+[10.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.dsv'
+[10.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/hook/cmake_prefix_path.sh'
+[10.076s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib'
+[10.077s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/bin'
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/pkgconfig/cplusplus_laser_map.pc'
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/lib/python3.10/site-packages'
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/cplusplus_laser_map/bin'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.ps1'
+[10.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.dsv'
+[10.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.sh'
+[10.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.bash'
+[10.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/cplusplus_laser_map/package.zsh'
+[10.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prez/git/humble-lidar/install/cplusplus_laser_map/share/colcon-core/packages/cplusplus_laser_map)
+[10.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[10.314s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros' for CMake module files
+[10.317s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros' for CMake config files
+[10.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[10.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[10.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[10.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib'
+[10.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[10.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[10.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[10.488s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/bin'
+[10.488s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/lib/python3.10/site-packages'
+[10.491s] Level 1:colcon.colcon_core.environment:checking '/home/prez/git/humble-lidar/install/rplidar_ros/bin'
+[10.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[10.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[10.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.sh'
+[10.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.bash'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/prez/git/humble-lidar/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[10.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prez/git/humble-lidar/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[10.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.683s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.751s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prez/git/humble-lidar/install/local_setup.ps1'
+[10.848s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prez/git/humble-lidar/install/_local_setup_util_ps1.py'
+[10.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prez/git/humble-lidar/install/setup.ps1'
+[10.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prez/git/humble-lidar/install/local_setup.sh'
+[10.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prez/git/humble-lidar/install/_local_setup_util_sh.py'
+[10.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prez/git/humble-lidar/install/setup.sh'
+[11.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prez/git/humble-lidar/install/local_setup.bash'
+[11.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prez/git/humble-lidar/install/setup.bash'
+[11.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prez/git/humble-lidar/install/local_setup.zsh'
+[11.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prez/git/humble-lidar/install/setup.zsh'

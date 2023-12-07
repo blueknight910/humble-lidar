@@ -1,0 +1,22 @@
+[1.116s] Invoking command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4
+[1.639s] [ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o[0m
+[18.034s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:3:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Subscription[m[K’ without an argument list
+[18.035s]    22 |   [01;31m[Krclcpp[m[K::Subscription::SharedPtr subscription_;
+[18.035s]       |   [01;31m[K^~~~~~[m[K
+[18.035s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.036s]    22 |   rclcpp::Subscription::[01;31m[KSharedPtr[m[K subscription_;
+[18.036s]       |                         [01;31m[K^~~~~~~~~[m[K
+[18.037s]       |                                  [32m[K;[m[K
+[18.041s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:22:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[18.042s]    22 |   rclcpp::Subscription::SharedPtr [01;31m[Ksubscription_[m[K;
+[18.043s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[18.044s]       |                                   [32m[Krmw_subscription_t[m[K
+[18.073s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:[m[K In constructor ‘[01m[KReadingLaser::ReadingLaser()[m[K’:
+[18.074s] [01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[18.075s]    13 |       [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[18.076s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[18.077s]       |       [32m[Krmw_subscription_t[m[K
+[26.385s] gmake[2]: *** [CMakeFiles/reading_laser.dir/build.make:76: CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o] Error 1
+[26.385s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reading_laser.dir/all] Error 2
+[26.386s] gmake: *** [Makefile:146: all] Error 2
+[26.393s] Invoked command in '/home/prez/git/humble-lidar/build/cplusplus_laser_map' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prez/git/c++lidar-project/install/py_pubsub:/home/prez/git/c++lidar-project/install/motor_package:/home/prez/git/c++lidar-project/install/ir_package:/home/prez/ros2_ws/install/py_pubsub:/home/prez/ros2_ws/install/my_package:/home/prez/ros2_ws/install/launch_testing_examples:/home/prez/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/prez/ros2_ws/install/examples_rclpy_minimal_service:/home/prez/ros2_ws/install/examples_rclpy_minimal_publisher:/home/prez/ros2_ws/install/examples_rclpy_minimal_client:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_server:/home/prez/ros2_ws/install/examples_rclpy_minimal_action_client:/home/prez/ros2_ws/install/examples_rclpy_guard_conditions:/home/prez/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/prez/git/humble-lidar/build/cplusplus_laser_map -- -j4 -l4

@@ -1,0 +1,7 @@
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:[m[K In member function ‘[01m[Kvoid ReadingLaser::plotData()[m[K’:
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:50:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolar[m[K’ is not a member of ‘[01m[Kplt[m[K’
+   50 |         plt::subplot(1, 1, 1, plt::[01;31m[Kpolar[m[K);
+      |                                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/reading_laser.dir/build.make:76: CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reading_laser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

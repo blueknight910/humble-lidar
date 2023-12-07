@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o[0m
+[01m[K/home/prez/git/humble-lidar/src/cplusplus_laser_map/src/reading_laser.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmatplotlibcpp.h: No such file or directory
+    5 | #include [01;31m[K"matplotlibcpp.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/reading_laser.dir/build.make:76: CMakeFiles/reading_laser.dir/src/reading_laser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reading_laser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
